@@ -1,3 +1,7 @@
+Table of contents
+- [Tugas 1](<tugas#TUGAS 1>)
+- [Tugas 2](<tugas#TUGAS 2>)
+
 ## TUGAS 1
 ![tugas-1](./images/tugas1.png)
 
