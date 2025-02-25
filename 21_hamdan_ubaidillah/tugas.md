@@ -1,6 +1,6 @@
 Table of contents
-- [Tugas 1](<#TUGAS 1>)
-- [Tugas 2](<#TUGAS 2>)
+- [TUGAS 1](#TUGAS1)
+- [TUGAS 2](#TUGAS2)
 
 ## TUGAS 1
 ![tugas-1](./images/tugas1.png)
