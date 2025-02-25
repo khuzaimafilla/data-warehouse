@@ -1,6 +1,6 @@
 Table of contents
-- [TUGAS 1](#TUGAS-1)
-- [TUGAS 2](#TUGAS-2)
+- [Tugas 1](#TUGAS-1)
+- [Tugas 2](#TUGAS-2)
 
 ## TUGAS 1
 ![tugas-1](./images/tugas1.png)
