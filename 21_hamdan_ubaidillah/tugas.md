@@ -1,6 +1,7 @@
 Table of contents
 - [Tugas 1](#TUGAS-1)
 - [Tugas 2](#TUGAS-2)
+- [Tugas 3](#TUGAS-3)
 
 ## TUGAS 1
 ![tugas-1](./images/tugas1.png)
@@ -19,7 +20,7 @@ Table of contents
     - region : 3 kosong
     - date : 2 kosong
 4. Terdapat data yang kosong di kolom product, region, date maka dari itu terdapat inkonsistensi data (null)
-
+----
 
 ## TUGAS 2
 ![tugas-2](./images/tugas2.png)
@@ -46,3 +47,6 @@ Table of contents
 | Dahniar | 1 detik       | Intel(R) Core(TM) i5-6300U             | 8GB  | 256GB          | Intel(R) HD Graphics 520 | Intel(R) Core(TM) i5-6300U             |
 | Aqila   | 1 detik       | AMD Ryzen 5600H                        | 8GB  | 512GB          | AMD Radeon(TM) Graphics  | AMD Ryzen 5600H                        |
 | Hamdan  | 1 detik       | AMD Ryzen 5300U                        | 12GB | 500GB + 256 GB | AMD Radeon(TM) Graphics  | AMD Ryzen 5600H                        |
+----
+
+## Tugas 3
