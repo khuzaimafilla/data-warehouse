@@ -586,9 +586,81 @@
     <compare>
       <condition>
         <negated>N</negated>
-        <leftvalue/>
-        <function>=</function>
-        <rightvalue/>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>Customer</leftvalue>
+            <function>IS NOT NULL</function>
+            <rightvalue/>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <conditions>
+              <condition>
+                <negated>N</negated>
+                <leftvalue>Product</leftvalue>
+                <function>IS NOT NULL</function>
+                <rightvalue/>
+              </condition>
+              <condition>
+                <negated>N</negated>
+                <operator>AND</operator>
+                <conditions>
+                  <condition>
+                    <negated>N</negated>
+                    <leftvalue>Region</leftvalue>
+                    <function>IS NOT NULL</function>
+                    <rightvalue/>
+                  </condition>
+                  <condition>
+                    <negated>N</negated>
+                    <operator>AND</operator>
+                    <conditions>
+                      <condition>
+                        <negated>N</negated>
+                        <leftvalue>Date</leftvalue>
+                        <function>IS NOT NULL</function>
+                        <rightvalue/>
+                      </condition>
+                      <condition>
+                        <negated>N</negated>
+                        <operator>AND</operator>
+                        <conditions>
+                          <condition>
+                            <negated>N</negated>
+                            <leftvalue>Item unit price</leftvalue>
+                            <function>IS NOT NULL</function>
+                            <rightvalue/>
+                          </condition>
+                          <condition>
+                            <negated>N</negated>
+                            <operator>AND</operator>
+                            <conditions>
+                              <condition>
+                                <negated>N</negated>
+                                <leftvalue>No.Items</leftvalue>
+                                <function>IS NOT NULL</function>
+                                <rightvalue/>
+                              </condition>
+                              <condition>
+                                <negated>N</negated>
+                                <operator>AND</operator>
+                                <leftvalue>Total Sale</leftvalue>
+                                <function>IS NOT NULL</function>
+                                <rightvalue/>
+                              </condition>
+                            </conditions>
+                          </condition>
+                        </conditions>
+                      </condition>
+                    </conditions>
+                  </condition>
+                </conditions>
+              </condition>
+            </conditions>
+          </condition>
+        </conditions>
       </condition>
     </compare>
     <attributes/>
@@ -601,63 +673,6 @@
     </remotesteps>
     <GUI>
       <xloc>496</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Text file output</name>
-    <type>TextFileOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <separator>;</separator>
-    <enclosure>"</enclosure>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>N</enclosure_fix_disabled>
-    <header>Y</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
-    <encoding/>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name>file</name>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>txt</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery/>
-    </file>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>656</xloc>
       <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
@@ -679,11 +694,11 @@
     <append>N</append>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>file</name>
+      <name>${Internal.Entry.Current.Directory}/outputSales</name>
       <extention>xls</extention>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>
       <create_parent_folder>N</create_parent_folder>
-      <split>N</split>
+      <split>Y</split>
       <add_date>N</add_date>
       <add_time>N</add_time>
       <SpecifyFormat>N</SpecifyFormat>
@@ -732,6 +747,63 @@
     <GUI>
       <xloc>656</xloc>
       <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Text file output</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Entry.Current.Directory}/outputSales</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery/>
+    </file>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
