@@ -1,0 +1,14 @@
+Nama,NIK,Tempat Lahir,Tanggal Lahir,Jenis Kelamin,Alamat,Kota,RT/RW,Kelurahan,Kecamatan,Agama,Status Perkawinan,Pekerjaan
+Budi Santoso    ,3503/01/01 01:01:01.000,Jakarta    ,1980/01/01 00:00:00.000,Laki-laki,Jl. Merdeka No. 123         ,Jakarta    , 000000000000001,Menteng           ,Jakarta Pusat    ,Islam  ,Menikah      ,Wiraswasta    
+Joko Susilo     ,3503/01/01 01:01:03.000,Surabaya   ,1975/10/10 00:00:00.000,Laki-laki,Jl. Diponegoro No. 67       ,Surabaya   , 000000000000005,Gubeng            ,Surabaya Pusat   ,Katolik,Menikah      ,Pegawai Swasta
+Maya Dewi       ,3503/01/01 01:01:04.000,Yogyakarta ,1988/08/20 00:00:00.000,Perempuan,Jl. Malioboro No. 8         ,Yogyakarta , 000000000000007,Sosromenduran     ,Yogyakarta Utara ,Hindu  ,Belum Menikah,Guru          
+Rini Setiawan   ,3503/01/01 01:01:06.000,Malang     ,1982/12/12 00:00:00.000,Perempuan,Jl. Simpang Borobudur No. 15,Malang     , 000000000000011,Dinoyo            ,Malang Selatan   ,Kristen,Menikah      ,Wiraswasta    
+Fajar Prabowo   ,3503/01/01 01:01:09.000,Medan      ,1986/09/30 00:00:00.000,Laki-laki,Jl. Sudirman No. 50         ,Medan      , 000000000000017,Sei Sikambing     ,Medan Timur      ,Hindu  ,Menikah      ,Wiraswasta    
+Rina Sari       ,3503/01/01 01:01:10.000,Denpasar   ,1992/07/17 00:00:00.000,Perempuan,Jl. Gatot Subroto No. 30    ,Denpasar   , 000000000000019,Dauh Puri Kauh    ,Denpasar Utara   ,Buddha ,Belum Menikah,Freelancer    
+Ahmad Subhan    ,3503/01/01 01:01:11.000,Surakarta  ,1991/07/03 00:00:00.000,Laki-laki,Jl. Pahlawan No. 55         ,Surakarta  , 000000000000021,Jebres            ,Surakarta Timur  ,Islam  ,Belum Menikah,Wiraswasta    
+Dian Pertiwi    ,3503/01/01 01:01:12.000,Maluku     ,1985/12/10 00:00:00.000,Perempuan,Jl. Pattimura No. 10        ,Ambon      , 000000000000023,Baguala           ,Ambon            ,Kristen,Menikah      ,Guru          
+Rudi Hartono    ,3503/01/01 01:01:13.000,Pontianak  ,1973/05/28 00:00:00.000,Laki-laki,Jl. Ahmad Yani No. 30       ,Pontianak  , 000000000000025,Pontianak Barat   ,Pontianak Kota   ,Hindu  ,Menikah      ,Wiraswasta    
+Lina Fitriani   ,3503/01/01 01:01:14.000,Manado     ,1994/08/15 00:00:00.000,Perempuan,Jl. Wolter Monginsidi No. 17,Manado     , 000000000000027,Mapanget          ,Manado Selatan   ,Kristen,Belum Menikah,Akuntan       
+Rina Agustina   ,3503/01/01 01:01:16.000,Bengkulu   ,1990/11/19 00:00:00.000,Perempuan,Jl. Imam Bonjol No. 45      ,Bengkulu   , 000000000000031,Ratu Samban       ,Bengkulu Tengah  ,Kristen,Menikah      ,Wiraswasta    
+Nia Dewi Lestari,3503/01/01 01:01:18.000,Manokwari  ,1987/06/14 00:00:00.000,Perempuan,Jl. Diponegoro No. 40       ,Manokwari  , 000000000000035,Manokwari Barat   ,Manokwari        ,Kristen,Belum Menikah,Penulis       
+Doni Setiawan   ,3503/01/01 01:01:19.000,Palu       ,1977/03/07 00:00:00.000,Laki-laki,Jl. Soekarno-Hatta No. 70   ,Palu       , 000000000000037,Palu Barat        ,Palu             ,Islam  ,Menikah      ,Wiraswasta    
