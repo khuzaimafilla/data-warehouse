@@ -1,15 +1,16 @@
 ## Analisis Dashboard Penjualan Cabang
 
 ### 1. Field yang Diperlukan
+
 Untuk menampilkan penjualan di setiap cabang berdasarkan tahun, kita memerlukan field berikut:
 
-| Field           | Keterangan                                      |
-|----------------|----------------------------------------------|
-| `branch_id`    | ID unik untuk cabang                         |
-| `branch_name`  | Nama cabang                                  |
-| `order_id`     | ID unik untuk transaksi                     |
-| `order_date`   | Tanggal transaksi                           |
-| `total_amount` | Jumlah omset dari transaksi                 |
+| Field          | Keterangan                                         |
+| -------------- | -------------------------------------------------- |
+| `branch_id`    | ID unik untuk cabang                               |
+| `branch_name`  | Nama cabang                                        |
+| `order_id`     | ID unik untuk transaksi                            |
+| `order_date`   | Tanggal transaksi                                  |
+| `total_amount` | Jumlah omset dari transaksi                        |
 | `year`         | Tahun transaksi (bisa diekstrak dari `order_date`) |
 
 ### 2. Query untuk Menampilkan Omset per Cabang per Tahun
@@ -27,11 +28,11 @@ ORDER BY b.branch_name, tahun;
 
 Query ini akan menghasilkan tabel dengan format berikut:
 
-| Nama Cabang      | 2003  | 2004  | 2005  | ...  |
-|-----------------|-------|-------|-------|------|
-| Jakarta         | 100M  | 120M  | 130M  | ...  |
-| Surabaya        | 90M   | 110M  | 125M  | ...  |
-| Bandung         | 85M   | 95M   | 100M  | ...  |
+| Nama Cabang | 2003 | 2004 | 2005 | ... |
+| ----------- | ---- | ---- | ---- | --- |
+| Jakarta     | 100M | 120M | 130M | ... |
+| Surabaya    | 90M  | 110M | 125M | ... |
+| Bandung     | 85M  | 95M  | 100M | ... |
 
 Hasilnya bisa digunakan untuk membuat grafik penjualan berdasarkan tahun untuk setiap cabang.
 
