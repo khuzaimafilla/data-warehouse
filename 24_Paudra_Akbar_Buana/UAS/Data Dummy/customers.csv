@@ -1,0 +1,202 @@
+CustomerID,FirstName,MiddleInitial,LastName,CityID,Address
+1,Stefanie,Y,Frye,79,97 Oak Avenue
+2,Sandy,T,Kirby,96,52 White First Freeway
+3,Lee,T,Zhang,55,921 White Fabien Avenue
+4,Regina,S,Avery,40,75 Old Avenue
+5,Daniel,S,Mccann,2,283 South Green Hague Avenue
+6,Dennis,H,Zuniga,6,20 West Old Road
+7,Myra,K,Jefferson,68,26 Green First Parkway
+8,Teddy,L,Parsons,44,38 West Nobel St.
+9,Annie,F,Stein,46,17 White Nobel Way
+10,Herman,Y,Pope,72,695 Old Street
+11,Jenifer,R,Winters,23,30 White Oak Way
+12,Stefanie,H,Gordon,57,29 Clarendon Street
+13,Chastity,N,Gillespie,37,801 East White Oak Boulevard
+14,Evelyn,R,Sweeney,53,73 Clarendon Road
+15,Jeannie,Z,Gardner,76,13 Green Cowley Parkway
+16,Rickey,H,Ho,51,51 First Boulevard
+17,Bobbie,B,Simon,53,73 Rocky Fabien St.
+18,Lesley,F,Orr,46,16 Second Avenue
+19,Shawna,Y,Herring,76,37 New Boulevard
+20,Theresa,E,Berg,83,41 Hague Road
+21,Tasha,D,Heath,34,332 Green Milton Blvd.
+22,Karla,H,Sutton,80,384 South Green Clarendon Drive
+23,Otis,R,Miller,65,121 South Old Street
+24,Alisa,N,Ruiz,42,573 West Old Drive
+25,Peggy,R,Sandoval,9,97 Second Way
+26,Lisa,Y,Dennis,10,434 North Milton Parkway
+27,Vicky,N,Russell,36,878 Nobel St.
+28,Nicolas,W,Reese,16,847 Green Cowley Drive
+29,Miranda,I,Armstrong,63,605 White Oak Way
+30,Kara,D,Beltran,30,61 Nobel Drive
+31,Rosemary,W,Manning,64,651 New Parkway
+32,Ernest,C,Wright,49,389 Clarendon Street
+33,Lindsay,I,Santana,87,47 Green Nobel Avenue
+34,Lorenzo,G,Tucker,9,954 White New St.
+35,Tammie,NULL,Gaines,4,47 White Clarendon Boulevard
+36,Kareem,D,Gonzalez,90,10 White New Way
+37,Cesar,F,Smith,34,358 Rocky Nobel Avenue
+38,Charlene,I,Hartman,11,27 West Rocky Clarendon Street
+39,Sonja,F,Griffith,3,354 Green Fabien Street
+40,Gwendolyn,B,Love,22,345 Fabien Parkway
+41,Stephan,Q,Alexander,56,85 South Nobel Avenue
+42,Maggie,E,Cross,80,240 New Way
+43,Earnest,M,Greer,40,41 White Fabien Drive
+44,Zachary,V,Odom,70,394 West Rocky First Drive
+45,Erin,K,Ward,2,372 Second Road
+46,Rodolfo,E,Gray,31,311 Rocky Nobel Parkway
+47,Carla,P,Acosta,68,241 New Boulevard
+48,Norma,NULL,Gallegos,50,400 North Milton Blvd.
+49,Jean,T,Lozano,52,77 New Blvd.
+50,Tara,P,Hernandez,72,49 Nobel Blvd.
+51,Kirsten,D,Hamilton,84,79 White Clarendon Blvd.
+52,Lisa,O,Todd,51,430 South Old St.
+53,Marie,O,Gamble,51,43 South White First St.
+54,Devin,F,Santana,30,47 Nobel Street
+55,Shaun,X,Singh,96,637 White Second Street
+56,Jose,N,Summers,95,510 First St.
+57,Tasha,F,Larsen,32,491 Rocky Cowley Avenue
+58,Meredith,Q,Meza,13,85 White Cowley Boulevard
+59,Heather,B,Gallegos,31,286 North Second Road
+60,Sherri,G,Cardenas,88,689 Green Fabien Street
+61,Theodore,A,Santana,66,786 Rocky Milton Parkway
+62,Elton,T,Spencer,52,27 Clarendon Boulevard
+63,Phillip,T,Harvey,77,989 West Green New Parkway
+64,Raymond,N,Hurley,17,494 Rocky First Blvd.
+65,Alejandro,D,Price,9,377 Milton Avenue
+66,Kristina,C,Barron,71,79 White Fabien Road
+67,Chandra,C,Hammond,66,692 East Rocky Nobel Blvd.
+68,Allen,O,Hensley,29,100 Green Milton Freeway
+69,Myron,Y,Best,50,27 White First Blvd.
+70,Lewis,G,Robertson,82,12 White Hague Road
+71,Laura,N,Ho,18,324 Oak Way
+72,Wallace,U,Dickson,42,457 First Freeway
+73,Johnathan,Z,Park,43,33 New Road
+74,Dianna,W,Mc Cormick,54,620 Green Hague Road
+75,Jamal,D,Montoya,28,87 Green Clarendon St.
+76,Sharon,I,Morrison,51,231 South Rocky Hague Road
+77,Clifton,A,Bradshaw,41,21 First Avenue
+78,Sean,Q,Stewart,91,99 Hague Boulevard
+79,Trent,L,Murphy,40,632 North Rocky Nobel Drive
+80,Victor,H,Lane,75,14 North White First Blvd.
+81,Becky,J,Davis,39,443 Old Avenue
+82,Chastity,C,Summers,82,56 Cowley Street
+83,Charlene,F,Dyer,61,393 Green Fabien Way
+84,Lana,X,Spencer,87,384 East White Clarendon Parkway
+85,Summer,T,Hurley,42,386 North Second Avenue
+86,Zachary,T,Mc Knight,14,97 Nobel Blvd.
+87,Corey,O,Stewart,95,31 West Milton Blvd.
+88,Olivia,Q,Cooke,58,784 Oak Road
+89,Miriam,F,Sloan,9,71 East Cowley Drive
+90,Rosa,U,Elliott,6,90 Second Way
+91,Marci,B,Hampton,59,152 White Oak St.
+92,Morgan,M,Fox,21,96 Green Fabien Avenue
+93,Gerard,D,Cantrell,76,67 North Rocky Milton Boulevard
+94,Paul,C,Dodson,12,743 Green New Parkway
+95,Kara,E,Rich,53,427 Milton Freeway
+96,Shane,H,Bray,5,515 West Green First Avenue
+97,Stanley,W,Castillo,3,55 Clarendon Freeway
+98,Brendan,R,Herman,23,107 Clarendon Drive
+99,Tania,I,Chung,62,243 Second St.
+100,Victor,T,Doyle,28,664 White Second Freeway
+101,Abraham,I,Kane,61,698 Oak Drive
+102,Julius,P,Mccall,39,766 Milton Boulevard
+103,Jana,Q,Huang,1,841 Hague Road
+104,Jackie,M,Randall,67,13 Hague Drive
+105,Susana,B,Lynch,55,85 East Green New Boulevard
+106,Allen,I,Grant,43,866 Second Drive
+107,Marisa,P,Bennett,8,66 West First St.
+108,Duane,S,Shaffer,94,48 New Parkway
+109,Elisa,C,Payne,2,54 Clarendon Way
+110,Lakisha,O,Mills,46,18 North Green Clarendon Avenue
+111,Nakia,N,Schaefer,55,915 East Rocky Clarendon Avenue
+112,Ginger,O,Hess,37,26 South Hague Drive
+113,Lloyd,E,House,70,320 West Green Clarendon Drive
+114,Clint,U,Graves,53,37 Old Freeway
+115,Trina,NULL,Ochoa,50,25 Rocky Cowley Freeway
+116,Tonia,X,Rose,80,248 South White Hague Drive
+117,Neal,Y,Burnett,87,71 New Drive
+118,Bethany,O,Rivera,86,943 New Avenue
+119,Casey,W,Smith,72,615 Green Second Drive
+120,Lindsay,T,Jordan,91,91 North First St.
+121,Rebekah,J,Hancock,73,944 East Old St.
+122,Mathew,N,Hammond,8,396 Nobel Street
+123,Mitchell,L,Nixon,20,748 Clarendon Drive
+124,Jesus,J,Humphrey,44,729 West Clarendon Blvd.
+125,Everett,E,Yoder,23,519 New Drive
+126,Pete,F,Mathews,94,796 South Milton Way
+127,Stacy,B,Lutz,63,89 Clarendon Parkway
+128,Howard,R,Trujillo,32,26 Hague Blvd.
+129,Ted,W,Hahn,1,123 West White Oak Street
+130,Ray,R,Wyatt,24,33 White New Road
+131,Sheryl,W,Perry,48,143 Green Hague Street
+132,John,L,Gonzalez,18,13 Green Hague Street
+133,Karl,I,Dunn,29,797 Second Boulevard
+134,Tabitha,H,Khan,13,37 First Blvd.
+135,Vicki,S,Larsen,14,34 Oak Road
+136,Phillip,Y,Montgomery,96,59 Green Hague Way
+137,Jeannette,T,Tapia,82,468 East Clarendon Boulevard
+138,Guillermo,L,Butler,90,486 Green First Parkway
+139,Chasity,T,Odom,33,35 North Green Oak Drive
+140,Cheri,V,Villarreal,96,46 Cowley Blvd.
+141,Tonia,K,Booker,7,288 Green Cowley Boulevard
+142,Ray,E,Clayton,1,694 East Green Hague Blvd.
+143,Gregory,W,Pugh,57,74 Oak Road
+144,Dianna,O,Kirby,60,208 White Hague St.
+145,Cody,Q,Blake,47,236 New Street
+146,Melanie,H,Whitney,23,498 Cowley Street
+147,Tamiko,M,Doyle,48,71 West Cowley Street
+148,Darrick,H,Kirby,24,480 Oak Drive
+149,Monica,I,Fleming,58,63 East Green Clarendon Avenue
+150,Ashley,F,Pope,70,64 First Street
+151,Brady,G,Reese,14,474 Green Clarendon Freeway
+152,Miguel,T,Watson,13,13 South Green New Street
+153,Danny,A,Herman,48,501 West First Way
+154,Omar,Y,Weeks,68,75 Hague St.
+155,Latoya,Y,Mc Lean,52,60 West Rocky New Freeway
+156,Joan,G,Castro,53,490 North White Hague Road
+157,Demond,X,Brandt,20,85 Old Way
+158,Demetrius,G,Ramirez,53,438 Milton Avenue
+159,Abigail,M,Mullen,45,628 Cowley Blvd.
+160,Nathan,G,Glenn,57,44 Rocky Milton Street
+161,Sandra,A,Elliott,76,82 South Milton Boulevard
+162,Erika,R,Randall,72,125 White Old Parkway
+163,Armando,S,Wu,93,186 Cowley Road
+164,Darius,A,Bridges,75,586 West Green Fabien St.
+165,Preston,G,Kelly,95,745 First St.
+166,Erik,D,Rangel,37,471 White Milton Avenue
+167,Antonio,F,Benson,8,189 South Second Avenue
+168,Kristina,G,Kim,57,284 Rocky Clarendon Way
+169,Casey,NULL,Glass,39,11 South Green Oak Boulevard
+170,Armando,M,Lucas,50,332 Second Blvd.
+171,Marla,V,Watts,95,38 White Clarendon Street
+172,Billie,D,Fischer,93,908 First Way
+173,Jonathon,N,Reynolds,54,801 East Rocky Oak Drive
+174,Diane,U,Quinn,73,37 North Fabien Road
+175,Emily,A,Duncan,84,68 Green First Road
+176,Jonathon,I,Brooks,72,749 West Fabien St.
+177,Laura,F,Grimes,48,91 White Hague Drive
+178,Roxanne,R,Wade,56,42 White Clarendon Drive
+179,Gene,W,Morrison,94,35 First Way
+180,Arnold,T,House,1,585 Rocky Cowley Boulevard
+181,Zachary,X,Matthews,47,216 North Old St.
+182,Jacob,S,Webster,40,388 Oak Street
+183,Jason,T,Dunn,70,481 Rocky Hague Street
+184,Brian,I,Neal,28,622 Old Boulevard
+185,Helen,R,Cunningham,10,154 Cowley Blvd.
+186,Ralph,L,Lopez,35,530 Cowley Way
+187,Holly,C,Wong,67,625 Nobel Boulevard
+188,Stanley,K,Sherman,58,92 Rocky Cowley Drive
+189,Leon,K,Costa,58,698 Rocky Old Freeway
+190,Staci,J,Barber,57,726 Green Fabien Drive
+191,Kimberly,L,Baldwin,77,167 South Oak Parkway
+192,Candice,B,Mayer,29,645 West Old Parkway
+193,Mike,N,Munoz,46,96 East Green New Drive
+194,David,Y,Watts,72,67 Rocky Hague Boulevard
+195,Allan,N,Molina,20,78 Fabien Boulevard
+196,Andrea,V,Barker,32,856 White Second Street
+197,Albert,T,Rosario,5,353 New St.
+198,Todd,M,Franklin,79,169 Clarendon Way
+199,Miranda,V,Morton,61,93 Rocky New Freeway
+200,Rene,I,Mercado,11,76 East Green Clarendon Avenue
+201,Desiree,M,Farrell,15,454 Oak Blvd.
